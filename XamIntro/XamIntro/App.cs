@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
+using XamIntro.Pages;
 
 namespace XamIntro
 {
@@ -12,22 +8,23 @@ namespace XamIntro
         public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "XamIntro",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+            //var content = new ContentPage
+            //{
+            //    Title = "XamIntro",
+            //    Content = new StackLayout
+            //    {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new Label {
+            //                HorizontalTextAlignment = TextAlignment.Center,
+            //                Text = "Welcome to Xamarin Forms!"
+            //            }
+            //        }
+            //    }
+            //};
 
-            MainPage = new NavigationPage(content);
+
+            MainPage = new NavigationPage(new FirstPage());
         }
 
         protected override void OnStart()
