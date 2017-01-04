@@ -38,9 +38,14 @@
     <Compile Include="App.cs" />
     <Compile Include="Controls\CellCourse.cs" />
     <Compile Include="Models\PluralSightCourse.cs" />
+    <Compile Include="Pages\CourseMasterDetail.cs" />
+    <Compile Include="Pages\CourseMasterDetailDB.cs" />
+    <Compile Include="Pages\CoursePage.cs" />
+    <Compile Include="Pages\CoursePageDB.cs" />
     <Compile Include="Pages\FirstPage.xaml.cs">
       <DependentUpon>FirstPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\ListViewOne.cs" />
     <Compile Include="Pages\ListViewThree.cs" />
     <Compile Include="Pages\ListViewTwo.cs" />
