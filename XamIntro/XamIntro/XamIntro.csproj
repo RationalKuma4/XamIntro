@@ -36,9 +36,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Controls\CellCourse.cs" />
+    <Compile Include="Models\PluralSightCourse.cs" />
     <Compile Include="Pages\FirstPage.xaml.cs">
       <DependentUpon>FirstPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ListViewOne.cs" />
+    <Compile Include="Pages\ListViewThree.cs" />
+    <Compile Include="Pages\ListViewTwo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
