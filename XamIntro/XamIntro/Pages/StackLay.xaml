@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.Pages.StackLay">
+  <ScrollView>
+    <StackLayout Orientation="Vertical"
+                 Padding="30"
+                 Spacing="10">
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Name" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryNameTwo" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Street" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryStreet" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="City" Font="Large"  VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryName" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Name" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryCity" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="State" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryState" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Zip" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryZip" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Home Phone" Font="Large" VerticalTextAlignment="End"></Label>
+        <Entry x:Name="entryHomePhone" HorizontalOptions="FillAndExpand"></Entry>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -44,6 +44,13 @@
     <Compile Include="Pages\ListViewOne.cs" />
     <Compile Include="Pages\ListViewThree.cs" />
     <Compile Include="Pages\ListViewTwo.cs" />
+    <Compile Include="Pages\RelaView.cs" />
+    <Compile Include="Pages\SecondStack.xaml.cs">
+      <DependentUpon>SecondStack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StackLay.xaml.cs">
+      <DependentUpon>StackLay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,9 +71,20 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\StackLay.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\FirstPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\SecondStack.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -26,7 +26,8 @@ namespace XamIntro
 
             //MainPage = new NavigationPage(new FirstPage());
             //MainPage = new NavigationPage(new ListViewOne());
-            MainPage = new NavigationPage(new ListViewThree());
+            //MainPage = new NavigationPage(new SecondStack());
+            MainPage = new NavigationPage(new RelaView());
         }
 
         protected override void OnStart()
