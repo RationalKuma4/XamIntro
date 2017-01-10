@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Contracts\IPictureTaker.cs" />
     <Compile Include="Controls\CellCourse.cs" />
     <Compile Include="Models\PluralSightCourse.cs" />
     <Compile Include="Pages\CourseMasterDetail.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Pages\StackLay.xaml.cs">
       <DependentUpon>StackLay.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\TheLastPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
